@@ -19,7 +19,7 @@
 
 #projects h2 {
     font-size: 1.8em; /* Decrease font size for better readability on smaller screens */
-    padding: 10px; /* Adjust padding for better spacing on smaller screens */
+    /* padding: 10px; Adjust padding for better spacing on smaller screens */
 }
 
 #projects ul {
@@ -29,6 +29,7 @@
 @media (max-width: 768px) {
     #projects {
         height: auto;
+        width: auto;
     }
 
     #projects .proj {
@@ -44,6 +45,9 @@
     #projects h2 {
         font-size: 1.6em;
         padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #projects ul {

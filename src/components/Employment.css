@@ -3,7 +3,8 @@
   background: #ffffff;
   width: 100%;
   height: auto; /* Change height to auto for better responsiveness */
-  padding: 20px; /* Add padding for better spacing on smaller screens */
+  padding: 20px; 
+  list-style: circle;/* Add padding for better spacing on smaller screens */
 }
 
 #employment .jobs {
@@ -31,11 +32,17 @@
 }
 
 @media (max-width: 768px) {
+  #employment {
+    width: auto;
+      height: auto;
+  }
   #employment h2 {
     text-align: center;
+    width: auto;
   }
 
   #employment .jobs {
     margin-left: -18px;
+
   }
 }

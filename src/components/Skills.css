@@ -41,6 +41,8 @@
 
 @media (max-width: 768px) {
     #skills {
+        width: auto;
+      height: auto;
         padding: 10px; /* Adjust padding for better spacing on smaller screens */
     }
 

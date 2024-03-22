@@ -53,7 +53,7 @@ header .nav-btn
 
 @media only screen and (max-width:1024px) 
 {
-  /* header .nav-btn 
+  header .nav-btn 
   {
     display: flex;
     opacity: 1;
@@ -91,9 +91,9 @@ header .nav-btn
   nav a 
   {
     font-size: 1.5rem;
-  } */
-  header
+  }
+  /* header
   {
     opacity: 0;
-  }
+  } */
 }

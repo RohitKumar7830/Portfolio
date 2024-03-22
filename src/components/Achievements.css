@@ -42,11 +42,12 @@
 @media (max-width: 768px) {
     #achievements {
         height: auto;
+        width: auto;
     }
 
     #achievements .achi {
-        margin-left: 20px;
-        margin-right: 20px;
+        /* margin-left: 20px;
+        margin-right: 20px; */
     }
 
     #achievements h4 {
@@ -60,6 +61,9 @@
     #achievements h2 {
         font-size: 1.6em;
         padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #achievements .ach {

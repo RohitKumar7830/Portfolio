@@ -20,12 +20,16 @@
 
 @media (max-width: 768px) {
   #education {
+    width: auto;
       height: auto;
   }
 
   #education h2 {
       font-size: 1.6em;
       padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
   }
 
   #education p {
