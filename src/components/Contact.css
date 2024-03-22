@@ -1,0 +1,89 @@
+#contact {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the container horizontally */
+    justify-content: center; /* Center the container vertically */
+}
+
+#contact .cont {
+    margin-left: 20px;
+}
+
+#contact h2 {
+    font-size: 1.8em;
+    padding: 10px;
+}
+
+#contact .cont h4,
+#contact .cont p {
+    font-size: 1.2em;
+}
+
+#contact .con1,
+#contact .con2,
+#contact .con3,
+#contact .con4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; /* Add space between contact sections on smaller screens */
+}
+
+#contact .con1 h4,
+#contact .con2 h4,
+#contact .con3 h4,
+#contact .con4 h4 {
+    display: block;
+    margin-top: 10px;
+    margin-right: 0;
+    text-align: center;
+}
+
+#contact .con1 p a,
+#contact .con2 p a,
+#contact .con3 p a,
+#contact .con4 p a {
+    text-decoration: none;
+    color: #000;
+}
+
+#contact .con1 p,
+#contact .con2 p,
+#contact .con3 p,
+#contact .con4 p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    #contact {
+        height: auto;
+    }
+
+    #contact .cont {
+        margin-left: 20px;
+    }
+
+    #contact h2 {
+        font-size: 1.6em;
+        padding: 10px;
+    }
+
+    #contact .cont h4,
+    #contact .cont p {
+        font-size: 1em;
+    }
+
+    #contact .con1 h4,
+    #contact .con2 h4,
+    #contact .con3 h4,
+    #contact .con4 h4 {
+        margin-top: 5px;
+    }
+}
