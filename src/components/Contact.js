@@ -4,7 +4,7 @@ import "./Contact.css";
 
 const Contact = () => (
   <section id="contact">
-    <h2>Contact</h2>
+    {/* <h2>Contact</h2> */}
     <div class="cont">
     <div class="con1">
      <h4>Gmail:</h4>
@@ -18,9 +18,13 @@ const Contact = () => (
      <h4>LinkedIn:</h4>
      <p><a href="https://www.linkedin.com/in/nikshepkulli/">Nikshepkulli</a></p>
     </div>
+    <div class="con3">
+     <h4>Github:</h4>
+     <p><a href="https://github.com/nikshepkulli">Nikshepkulli</a></p>
+    </div>
     <div class="con4">
      <h4>Address:</h4>
-     <p><a href="https://www.google.com/maps/place/585+Hope+St,+Stamford,+CT+06907/@41.0795458,-73.5214323,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2a1a8fbe52e77:0x19f7e383c749a807!8m2!3d41.0795458!4d-73.5214323!16s%2Fg%2F11c5dzxmvs?entry=ttu">585 Hope St, Stamford, CT</a></p>
+     <p><a href="https://maps.app.goo.gl/GLsyy1mhuoRJzq9G9">238 Garfield Ave, Jersey City, Nj</a></p>
     </div>
     </div>
   </section>

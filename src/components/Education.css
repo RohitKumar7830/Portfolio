@@ -2,8 +2,9 @@
   text-align: justify;
   height: auto; /* Change height to auto for better responsiveness */
   width: 100%;
-  background: #F8F9FA;
+  background: #B6D0E2;
   padding: 20px; /* Add padding for better spacing on smaller screens */
+  /* color: #fff; */
 }
 
 #education h2 {

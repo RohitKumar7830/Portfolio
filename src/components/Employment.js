@@ -6,6 +6,25 @@ const Employment = () => (
     <h2>Employment</h2>
     <div class="jobs">
     <div className="job">
+      <p class="header"><strong>Adjunct P rofessor</strong></p>
+      <p>Sacred Heart University, Fairfield, CT</p>
+      <p>Jan 2024 - Present</p>
+      <ul>
+        <li>
+          1. As an Adjunct Professor since January, I specialize in instructing courses on Data Science Architecture, Big Data, Data Structures, MongoDB, and Text-Based Analysis. 
+        </li>
+        <li>
+          2. Employing interactive teaching methods to facilitate deep understanding and engagement.
+        </li>
+        <li>
+          3. My focus is on integrating industry insights, fostering engagement through interactive teaching methods and updating course material to reflect the latest advancements.
+        </li>
+        <li>
+          4. Integrating industry expertise to offer practical insights and real-world applications.
+        </li>
+      </ul>
+    </div>
+    <div className="job">
       <p class="header"><strong>Data Science Virtual Intern</strong></p>
       <p>British Airways, Fairfield, CT</p>
       <p>May 2023 - May 2023</p>

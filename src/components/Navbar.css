@@ -4,9 +4,9 @@
 }
 :root
 {
-  --mainColor: #F8F9FA;
-  --mainColorLight: #5767aa;
-  --textColor: #000;
+  --mainColor: #B6D0E2;
+  /* --mainColorLight: #A7BEAE; */
+  --textColor: #fff
 }
 
 header {
@@ -26,7 +26,8 @@ nav
 }
 nav a
 {
-  margin: 0 2rem;
+  /* margin: 0 2rem; */
+  padding: 10px;
   color: var(--textColor);
   text-decoration: none;
   font-size: 1.2em;
