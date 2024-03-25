@@ -57,8 +57,19 @@
       flex-direction: column;
       align-items: center;
       width: auto;
+      height: auto;
     }
-    
+     
+    #about img {
+      margin-top: -5px;
+      margin-right: 24px;
+      width: 350px;
+      height: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
     #about p {
       /* Optional: Add additional styling for the paragraph */
       line-height: 1.6; /* Adjust line height for better readability */
