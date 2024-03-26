@@ -39,6 +39,11 @@
     text-align: left; /* Adjust text alignment for better readability on smaller screens */
 }
 
+#achievements i {
+    font-size: 2.2em;
+    margin-left: 10px;
+}
+
 @media (max-width: 768px) {
     #achievements {
         height: auto;
