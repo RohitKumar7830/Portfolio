@@ -2,9 +2,11 @@ import React from "react";
 import "./Achievements.css";
 const Achievements = () => (
   <section id="achievements">
-    <h2>Achievements</h2>
-    <p><a href="https://github.com/nikshepkulli/niku/tree/master/R%26R"><i class="fa fa-trophy" aria-hidden="true"></i>(Click here to view Achievements)</a></p>
-     <div class="achi">
+    <div class="heading">
+    <p><a href="https://github.com/nikshepkulli/niku/tree/master/R%26R"><i class="fa fa-trophy" aria-hidden="true"></i></a></p>
+     <h2>Achievements</h2>
+    </div>
+         <div class="achi">
      <div class="ach1">
      <h4>InnobaInMe Award - May, 2021:</h4>
      <p>Deepak Gupta, Director - Introduced Ai to Ventilators and showcased how we can optimize

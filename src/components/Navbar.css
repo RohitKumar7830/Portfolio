@@ -10,6 +10,7 @@
 }
 
 header {
+  overflow-y: hidden;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,6 +23,7 @@ header {
   
 nav
 {
+  overflow-y: hidden;
   background: var(--mainColor);
 }
 nav a

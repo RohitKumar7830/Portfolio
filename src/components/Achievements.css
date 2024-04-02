@@ -5,6 +5,22 @@
     padding: 20px; /* Add padding for better spacing on smaller screens */
 }
 
+#achievements .heading {
+    display: flex;
+    align-items: center;
+}
+
+#achievements .heading p {
+    font-size: 1.23em;
+}
+
+#achievements .heading:hover .fa.fa-trophy  {
+    /* font-size: 3.2em; */
+    color: #a9a9a9;
+}
+
+
+
 #achievements .achi {
     margin-left: 20px; /* Adjust the margin for better spacing on smaller screens */
     margin-right: 20px; /* Adjust the margin for better spacing on smaller screens */

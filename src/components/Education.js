@@ -8,7 +8,7 @@ const Education = () => (
     <p>
       <strong>Sacred Heart University</strong>, Fairfield, CT
     </p>
-    <p>Master of Science - Data Science; GPA: 3.8/4 | Aug 2022 - Dec 2023</p>
+    <p>Master of Science - Data Science; GPA: 3.9/4 | Aug 2022 - Dec 2023</p>
     </div>
     <div class="edu">
     <p>

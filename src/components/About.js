@@ -9,6 +9,7 @@ const About = () => (
     <div class="photo">
     <img src={img} alt="Description of the image" />
     </div>
+    <div class="text">
     <p>
       I am a Ph.D. candidate in Computer Science, specializing in data science
       and machine learning. As a Research Assistant at Sacred Heart University,
@@ -34,6 +35,7 @@ const About = () => (
       <p>Certifications: <a href="https://github.com/nikshepkulli/niku/tree/master/MongoDB%20Certificates">MongoDB Certificates</a> | <a href="https://github.com/nikshepkulli/niku/tree/master/Forage%20Certificate">Forage Certificates</a></p>
       </div>
      </p>
+    </div>
      
   </section>
 );

@@ -10,7 +10,7 @@ const Skills = () => (
             <div class="container">
               <div class="skill-box">
                  <div class="skill-title">
-                    <div class="img">
+                    <div class="img" id="java">
                     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png" class="skill-icon" />
                     </div>
                  </div>

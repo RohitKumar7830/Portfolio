@@ -125,6 +125,10 @@
     font-size: 1.2rem;
 }
 
+.inner #java {
+    overflow-y: hidden;
+}
+
 @media (max-width: 768px) {
 
     .skill-icon {
@@ -194,3 +198,4 @@
         font-size: 1.2rem;
     }
 }
+

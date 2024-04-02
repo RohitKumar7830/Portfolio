@@ -68,15 +68,13 @@ h2
   text-align: center;
 }
 
-#about {
+/* #about {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
-#about img {
-  border-radius: 50%;
-}
+
 
 #projects {
   display: grid;
